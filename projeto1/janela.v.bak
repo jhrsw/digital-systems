@@ -1,0 +1,14 @@
+module janela(input [9:0] h, v, output s);
+
+	reg jan;
+
+	always @(h, v)
+		begin
+			if(v < 256 & h < 128)
+				jan = 1;
+			else
+				jan = 0;
+		end
+		
+	assign s = jan;
+endmodule
