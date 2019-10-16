@@ -1,5 +1,5 @@
 Analysis & Synthesis report for projeto1
-Wed Oct 16 13:02:16 2019
+Wed Oct 16 13:29:37 2019
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -16,7 +16,7 @@ Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
   8. Analysis & Synthesis RAM Summary
   9. Registers Removed During Synthesis
  10. General Register Statistics
- 11. Source assignments for mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated
+ 11. Source assignments for mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated
  12. Parameter Settings for User Entity Instance: VGA_SYNC:inst|video_PLL:video_PLL_inst|altpll:altpll_component
  13. Parameter Settings for User Entity Instance: mem:inst1|altsyncram:altsyncram_component
  14. altpll Parameter Settings by Entity Instance
@@ -47,7 +47,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 16 13:02:16 2019        ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 16 13:29:37 2019        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; projeto1                                     ;
 ; Top-level Entity Name              ; projeto1                                     ;
@@ -154,24 +154,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                        ;
-+-----------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------+
-; File Name with User-Entered Path  ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                   ;
-+-----------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------+
-; projeto1.bdf                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/projeto1.bdf           ;
-; mem.v                             ; yes             ; User Wizard-Generated File             ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/mem.v                  ;
-; conc.v                            ; yes             ; User Verilog HDL File                  ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/conc.v                 ;
-; janela.v                          ; yes             ; User Verilog HDL File                  ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/janela.v               ;
-; VGA_SYNC.vhd                      ; yes             ; User VHDL File                         ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/VGA_SYNC.vhd           ;
-; video_PLL.vhd                     ; yes             ; User Wizard-Generated File             ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/video_PLL.vhd          ;
-; altpll.tdf                        ; yes             ; Megafunction                           ; c:/altera/91sp2/quartus/libraries/megafunctions/altpll.tdf                     ;
-; altsyncram.tdf                    ; yes             ; Megafunction                           ; c:/altera/91sp2/quartus/libraries/megafunctions/altsyncram.tdf                 ;
-; db/altsyncram_ok81.tdf            ; yes             ; Auto-Generated Megafunction            ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/db/altsyncram_ok81.tdf ;
-; /users/joaoh/desktop/results2.mif ; yes             ; Auto-Found Memory Initialization File  ; /users/joaoh/desktop/results2.mif                                              ;
-; db/decode_9oa.tdf                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/db/decode_9oa.tdf      ;
-; db/mux_iib.tdf                    ; yes             ; Auto-Generated Megafunction            ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/db/mux_iib.tdf         ;
-+-----------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                       ;
++----------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                   ;
++----------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------+
+; projeto1.bdf                     ; yes             ; User Block Diagram/Schematic File      ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/projeto1.bdf           ;
+; mem.v                            ; yes             ; User Wizard-Generated File             ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/mem.v                  ;
+; conc.v                           ; yes             ; User Verilog HDL File                  ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/conc.v                 ;
+; janela.v                         ; yes             ; User Verilog HDL File                  ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/janela.v               ;
+; VGA_SYNC.vhd                     ; yes             ; User VHDL File                         ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/VGA_SYNC.vhd           ;
+; video_PLL.vhd                    ; yes             ; User Wizard-Generated File             ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/video_PLL.vhd          ;
+; altpll.tdf                       ; yes             ; Megafunction                           ; c:/altera/91sp2/quartus/libraries/megafunctions/altpll.tdf                     ;
+; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/altera/91sp2/quartus/libraries/megafunctions/altsyncram.tdf                 ;
+; db/altsyncram_q771.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/db/altsyncram_q771.tdf ;
+; imagem.mif                       ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/imagem.mif             ;
+; db/decode_9oa.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/db/decode_9oa.tdf      ;
+; db/mux_iib.tdf                   ; yes             ; Auto-Generated Megafunction            ; C:/Users/joaoh/Documents/Git/sistemas-digitais/projeto1/db/mux_iib.tdf         ;
++----------------------------------+-----------------+----------------------------------------+--------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------+
@@ -216,20 +216,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |altpll:altpll_component|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|VGA_SYNC:inst|video_PLL:video_PLL_inst|altpll:altpll_component                                  ;              ;
 ;    |mem:inst1|                            ; 12 (0)            ; 6 (0)        ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1                                                                                       ;              ;
 ;       |altsyncram:altsyncram_component|   ; 12 (0)            ; 6 (0)        ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component                                                       ;              ;
-;          |altsyncram_ok81:auto_generated| ; 12 (0)            ; 6 (6)        ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated                        ;              ;
-;             |decode_9oa:deep_decode|      ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated|decode_9oa:deep_decode ;              ;
-;             |mux_iib:mux2|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated|mux_iib:mux2           ;              ;
+;          |altsyncram_q771:auto_generated| ; 12 (0)            ; 6 (6)        ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated                        ;              ;
+;             |decode_9oa:deep_decode|      ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated|decode_9oa:deep_decode ;              ;
+;             |mux_iib:mux2|                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |projeto1|mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated|mux_iib:mux2           ;              ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                      ;
-+-------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+-------------------------------+
-; Name                                                                                ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                           ;
-+-------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+-------------------------------+
-; mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 32768        ; 1            ; --           ; --           ; 32768 ; ../../../Desktop/results2.mif ;
-+-------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+-------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                   ;
++-------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+------------+
+; Name                                                                                ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF        ;
++-------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+------------+
+; mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 32768        ; 1            ; --           ; --           ; 32768 ; imagem.mif ;
++-------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+-------+------------+
 
 
 +--------------------------------------------------------------------------------+
@@ -258,7 +258,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------------------------------+
-; Source assignments for mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated ;
+; Source assignments for mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated ;
 +---------------------------------+--------------------+------+-----------------------------------+
 ; Assignment                      ; Value              ; From ; To                                ;
 +---------------------------------+--------------------+------+-----------------------------------+
@@ -641,60 +641,60 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +----------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: mem:inst1|altsyncram:altsyncram_component ;
-+------------------------------------+-------------------------------+-------------------+
-; Parameter Name                     ; Value                         ; Type              ;
-+------------------------------------+-------------------------------+-------------------+
-; BYTE_SIZE_BLOCK                    ; 8                             ; Untyped           ;
-; AUTO_CARRY_CHAINS                  ; ON                            ; AUTO_CARRY        ;
-; IGNORE_CARRY_BUFFERS               ; OFF                           ; IGNORE_CARRY      ;
-; AUTO_CASCADE_CHAINS                ; ON                            ; AUTO_CASCADE      ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                           ; IGNORE_CASCADE    ;
-; WIDTH_BYTEENA                      ; 1                             ; Untyped           ;
-; OPERATION_MODE                     ; ROM                           ; Untyped           ;
-; WIDTH_A                            ; 1                             ; Signed Integer    ;
-; WIDTHAD_A                          ; 15                            ; Signed Integer    ;
-; NUMWORDS_A                         ; 32768                         ; Signed Integer    ;
-; OUTDATA_REG_A                      ; CLOCK0                        ; Untyped           ;
-; ADDRESS_ACLR_A                     ; NONE                          ; Untyped           ;
-; OUTDATA_ACLR_A                     ; NONE                          ; Untyped           ;
-; WRCONTROL_ACLR_A                   ; NONE                          ; Untyped           ;
-; INDATA_ACLR_A                      ; NONE                          ; Untyped           ;
-; BYTEENA_ACLR_A                     ; NONE                          ; Untyped           ;
-; WIDTH_B                            ; 1                             ; Untyped           ;
-; WIDTHAD_B                          ; 1                             ; Untyped           ;
-; NUMWORDS_B                         ; 1                             ; Untyped           ;
-; INDATA_REG_B                       ; CLOCK1                        ; Untyped           ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                        ; Untyped           ;
-; RDCONTROL_REG_B                    ; CLOCK1                        ; Untyped           ;
-; ADDRESS_REG_B                      ; CLOCK1                        ; Untyped           ;
-; OUTDATA_REG_B                      ; UNREGISTERED                  ; Untyped           ;
-; BYTEENA_REG_B                      ; CLOCK1                        ; Untyped           ;
-; INDATA_ACLR_B                      ; NONE                          ; Untyped           ;
-; WRCONTROL_ACLR_B                   ; NONE                          ; Untyped           ;
-; ADDRESS_ACLR_B                     ; NONE                          ; Untyped           ;
-; OUTDATA_ACLR_B                     ; NONE                          ; Untyped           ;
-; RDCONTROL_ACLR_B                   ; NONE                          ; Untyped           ;
-; BYTEENA_ACLR_B                     ; NONE                          ; Untyped           ;
-; WIDTH_BYTEENA_A                    ; 1                             ; Signed Integer    ;
-; WIDTH_BYTEENA_B                    ; 1                             ; Untyped           ;
-; RAM_BLOCK_TYPE                     ; AUTO                          ; Untyped           ;
-; BYTE_SIZE                          ; 8                             ; Untyped           ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                     ; Untyped           ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ          ; Untyped           ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ          ; Untyped           ;
-; INIT_FILE                          ; ../../../Desktop/results2.mif ; Untyped           ;
-; INIT_FILE_LAYOUT                   ; PORT_A                        ; Untyped           ;
-; MAXIMUM_DEPTH                      ; 0                             ; Untyped           ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS                        ; Untyped           ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL                        ; Untyped           ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                        ; Untyped           ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                        ; Untyped           ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN               ; Untyped           ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN               ; Untyped           ;
-; ENABLE_ECC                         ; FALSE                         ; Untyped           ;
-; DEVICE_FAMILY                      ; Cyclone II                    ; Untyped           ;
-; CBXI_PARAMETER                     ; altsyncram_ok81               ; Untyped           ;
-+------------------------------------+-------------------------------+-------------------+
++------------------------------------+----------------------+----------------------------+
+; Parameter Name                     ; Value                ; Type                       ;
++------------------------------------+----------------------+----------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                    ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                 ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY               ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE               ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE             ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                    ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                    ;
+; WIDTH_A                            ; 1                    ; Signed Integer             ;
+; WIDTHAD_A                          ; 15                   ; Signed Integer             ;
+; NUMWORDS_A                         ; 32768                ; Signed Integer             ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                    ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                    ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                    ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                    ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                    ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                    ;
+; WIDTH_B                            ; 1                    ; Untyped                    ;
+; WIDTHAD_B                          ; 1                    ; Untyped                    ;
+; NUMWORDS_B                         ; 1                    ; Untyped                    ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                    ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                    ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                    ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                    ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                    ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                    ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                    ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                    ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                    ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                    ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                    ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                    ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer             ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                    ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                    ;
+; BYTE_SIZE                          ; 8                    ; Untyped                    ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                    ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                    ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                    ;
+; INIT_FILE                          ; imagem.mif           ; Untyped                    ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                    ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                    ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                    ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                    ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                    ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                    ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                    ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                    ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                    ;
+; DEVICE_FAMILY                      ; Cyclone II           ; Untyped                    ;
+; CBXI_PARAMETER                     ; altsyncram_q771      ; Untyped                    ;
++------------------------------------+----------------------+----------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -741,7 +741,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Wed Oct 16 13:02:13 2019
+    Info: Processing started: Wed Oct 16 13:29:33 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off projeto1 -c projeto1
 Info: Found 1 design units, including 1 entities, in source file projeto1.bdf
     Info: Found entity 1: projeto1
@@ -780,7 +780,7 @@ Info: Elaborated megafunction instantiation "mem:inst1|altsyncram:altsyncram_com
 Info: Instantiated megafunction "mem:inst1|altsyncram:altsyncram_component" with the following parameter:
     Info: Parameter "clock_enable_input_a" = "BYPASS"
     Info: Parameter "clock_enable_output_a" = "BYPASS"
-    Info: Parameter "init_file" = "../../../Desktop/results2.mif"
+    Info: Parameter "init_file" = "imagem.mif"
     Info: Parameter "intended_device_family" = "Cyclone II"
     Info: Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info: Parameter "lpm_type" = "altsyncram"
@@ -791,15 +791,15 @@ Info: Instantiated megafunction "mem:inst1|altsyncram:altsyncram_component" with
     Info: Parameter "widthad_a" = "15"
     Info: Parameter "width_a" = "1"
     Info: Parameter "width_byteena_a" = "1"
-Info: Found 1 design units, including 1 entities, in source file db/altsyncram_ok81.tdf
-    Info: Found entity 1: altsyncram_ok81
-Info: Elaborating entity "altsyncram_ok81" for hierarchy "mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated"
+Info: Found 1 design units, including 1 entities, in source file db/altsyncram_q771.tdf
+    Info: Found entity 1: altsyncram_q771
+Info: Elaborating entity "altsyncram_q771" for hierarchy "mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated"
 Info: Found 1 design units, including 1 entities, in source file db/decode_9oa.tdf
     Info: Found entity 1: decode_9oa
-Info: Elaborating entity "decode_9oa" for hierarchy "mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated|decode_9oa:deep_decode"
+Info: Elaborating entity "decode_9oa" for hierarchy "mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated|decode_9oa:deep_decode"
 Info: Found 1 design units, including 1 entities, in source file db/mux_iib.tdf
     Info: Found entity 1: mux_iib
-Info: Elaborating entity "mux_iib" for hierarchy "mem:inst1|altsyncram:altsyncram_component|altsyncram_ok81:auto_generated|mux_iib:mux2"
+Info: Elaborating entity "mux_iib" for hierarchy "mem:inst1|altsyncram:altsyncram_component|altsyncram_q771:auto_generated|mux_iib:mux2"
 Info: Elaborating entity "conc" for hierarchy "conc:inst3"
 Info: Implemented 107 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
@@ -808,9 +808,9 @@ Info: Implemented 107 device resources after synthesis - the final resource coun
     Info: Implemented 8 RAM segments
     Info: Implemented 1 PLLs
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 258 megabytes
-    Info: Processing ended: Wed Oct 16 13:02:16 2019
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 277 megabytes
+    Info: Processing ended: Wed Oct 16 13:29:37 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 
