@@ -1,6 +1,0 @@
-module conc(input [9:0] a, b, output reg [14:0] s);
-	
-	always @(a,b)
-		assign s = {a[6:0], b[7:0]};
-	
-endmodule
