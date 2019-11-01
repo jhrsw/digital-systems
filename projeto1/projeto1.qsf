@@ -503,4 +503,8 @@ set_location_assignment PIN_AA10 -to SRAM_WE_N
 set_location_assignment PIN_AB15 -to FL_CE_N
 set_global_assignment -name VHDL_FILE VGA_SYNC.vhd
 set_global_assignment -name VHDL_FILE video_PLL.vhd
+set_global_assignment -name QIP_FILE shiftreg.qip
+set_global_assignment -name QIP_FILE shreg.qip
+set_global_assignment -name QIP_FILE our.qip
+set_global_assignment -name QIP_FILE ourmux.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
