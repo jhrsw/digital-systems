@@ -1,8 +1,8 @@
-# Sistemas Digitais
+# Digital Systems
 
-Projetos em FPGA para a disciplina de Sistemas Digitais (1001539), desenvolvidos utilizando linguagens de descrição de hardware e Quartus II.
+A FPGA project for Digital Systems course, built using HDLs and Quartus II software.
 
 [.gitignore](https://gist.github.com/nhasbun/71918796044b7ba89d6662133495f754)
 
-## Projeto 1
-Projetar um sistema sequencial síncrono genérico controlado por uma máquina de estados para processamento de imagens de entrada binárias em pipeline. A criação da imagem de base a ser processada, um arquivo .mif de tamanho 256x128, com 1 bit por pixel, é feita no Octave. Por fim, a imagem será visualizada em um monitor de vídeo por meio de uma porta VGA.
+## Project
+Build a pipelined, generic synchronous sequential system controlled by a finite-state machine (FSM) for image processing of binary images. The image to be processed is a .mif file containing 1 bit for each pixel in a 256x128 binary image, pre-processed in Octave. Our objective is to visualize this image in a computer monitor via VGA port.
